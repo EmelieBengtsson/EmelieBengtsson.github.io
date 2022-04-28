@@ -99,12 +99,14 @@ li img{
     .frontpage{
         font-size: 45px;
     }
+
     .starttext h1{
         font-size: 140px;
     }
 
     .starttext h6{
         font-size: 16px;
+        padding-bottom: 20px;
     }
 
     li img{
@@ -129,6 +131,7 @@ li img{
 
     .starttext h6{
         font-size: 14px;
+        padding-bottom: 20px;
     }
 
     li img{
@@ -153,6 +156,7 @@ li img{
 
     .starttext h6{
         font-size: 20px;
+        padding-bottom: 20px;
     }
 
     li img{
@@ -306,27 +310,7 @@ li img{
 
 /*Responsive team.html*/
 
-@media screen and (max-width: 1770px){
-    .members img{
-        width: 300px;
-        height: 300px;
-    }
-
-    .team h2{
-        font-size: 80px;
-    }
-
-    .members h3{
-        font-size: 40px;
-    }
-
-    .members h4{
-        font-size: 30px;
-        margin: 3px;
-    }
-}
-
-@media screen and (max-width: 1520px){
+@media screen and (max-width: 1440px){
     .members img{
         width: 250px;
         height: 250px;
@@ -351,7 +335,7 @@ li img{
     }
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1024px) {
     .members img{
         width: 200px;
         height: 200px;
@@ -371,11 +355,12 @@ li img{
     }
 }
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 769px){
     .members img{
         width: 160px;
         height: 160px;
     }
+
     .team h2{
         font-size: 45px;
     }
@@ -389,6 +374,58 @@ li img{
         margin: 0px;
     }
 }  
+
+@media screen and (max-width: 426px){
+    .members img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .team h2{
+        font-size: 35px;
+    }
+
+    .members h3{
+        font-size: 25px;
+    }
+
+    .members h4{
+        font-size: 15px;
+        margin: 0px;
+    }
+
+    .team{
+        padding-bottom: 20px;
+    }
+
+    .team .members{
+        margin-bottom: 80px;
+    }
+}  
+
+@media screen and (max-width: 376px){
+    .members img{
+        width: 90px;
+        height: 90px;
+    }
+    
+    .team h2{
+        font-size: 35px;
+    }
+
+    .members h3{
+        font-size: 20px;
+    }
+
+    .members h4{
+        font-size: 15px;
+        margin: 0px;
+    }
+
+    .team{
+        padding-bottom: 25px;
+    }
+} 
 
 /* Person pages*/
 
@@ -434,29 +471,7 @@ li img{
 
 /*Responsive person pages*/
 
-@media screen and (max-width: 2530px) {
-    .person img{
-        width: 500px;
-        height: 500px;
-    }
-
-    .infobox h3{
-        font-size: 50px;
-    }
-
-    .infobox p{
-        font-size: 40px;
-    }
-
-    .infobox h2{
-        font-size: 50px;
-        position: relative;
-        top: -10%;
-        margin-bottom: 0;
-    }
-}
-
-@media screen and (max-width: 1770px) {
+@media screen and (max-width: 1440px) {
     .person img{
         width: 450px;
         height: 450px;
@@ -477,41 +492,12 @@ li img{
     }
 }
 
-@media screen and (max-width: 1520px) {
+@media screen and (max-width: 1025px) {
     .person img{
-        width: 400px;
-        height: 400px;
+        width: 250px;
+        height: 250px;
     }
-
-    .infobox h3{
-        font-size: 40px;
-    }
-
-    .infobox p{
-        font-size: 30px;
-    }
-
-    .infobox h2{
-        font-size: 40px;
-    }
-}
-
-@media screen and (max-width: 1270px) {
-    .person img{
-        width: 350px;
-        height: 350px;
-    }
-    .infobox p{
-        font-size: 25px;
-    }
-}
-
-@media screen and (max-width: 1140px) {
-    .person img{
-        width: 300px;
-        height: 300px;
-    }
-
+        
     .infobox h3{
         font-size: 30px;
     }
@@ -525,16 +511,37 @@ li img{
     }
 }
 
-@media screen and (max-width: 1020px) {
-    .person img{
-        width: 250px;
-        height: 250px;
+@media screen and (max-width: 769px) {
+    .infobox p{
+        margin-left: 2px;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 426px) {
+   .person{
+       display: flex;
+       flex-flow: column wrap;
+       align-content: center;
+   }
+   
+    .person img{
+        width: 250px;
+        height: 250px;
+        align-self: center;
+        padding-bottom: 0;
+    }
+
+    .person h3{
+        align-self: center;
+    }
+
     .infobox p{
-        margin-left: 2px;
+        font-size: 20px;
+    }
+
+    .infobox h2{
+        font-size: 30px;
+      
     }
 }
 
@@ -573,40 +580,7 @@ li img{
 
 /*Responsive services.html */
 
-@media screen and (max-width: 2530px) {
-    .services h3{
-        font-size: 60px;
-    }
-    
-    .servicelist h4{
-        font-size: 40px;
-    }
-
-    .servicelist p{
-        font-size: 35px;
-    }
-
-}
-
-@media screen and (max-width: 1770px) {
-    .services h3{
-        font-size: 55px;
-    }
-    
-    .servicelist h4{
-        font-size: 35px;
-    }
-
-    .servicelist p{
-        font-size: 30px;
-    }
-
-    body{
-        font-size: 35px;
-    }
-}
-
-@media screen and (max-width: 1520px) {
+@media screen and (max-width: 1440px) {
     .services h3{
         font-size: 45px;
     }
@@ -624,9 +598,9 @@ li img{
     }
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1024px) {
     .services h3{
-        font-size: 40px;
+        font-size: 35px;
     }
     
     .servicelist h4{
@@ -642,23 +616,27 @@ li img{
     }
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 769px) {
     .services h3{
-        font-size: 35px;
+        font-size: 30px;
     }
     
     .servicelist h4{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .servicelist p{
+        font-size: 15px;
+    }
+
+    body{
         font-size: 20px;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 426px) {
     .services h3{
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .servicelist h4{
@@ -689,16 +667,16 @@ li img{
     align-items: center;
 }
 
-
 .map h2{
     font-size: 50px;
     padding-bottom: 40px;
 }
 
 .contact h6{
-    font-size:30px;
+    font-size:25px;
     color: black;
     font-style: italic;
+    position: relative;
 }
 
 .contact-fields h2{
@@ -746,19 +724,7 @@ input{
     justify-content: center;
 }
 
-.map .big {
-    display:none
-}
-
-.map .medium {
-    display: none;
-}
-
 .map .small{
-    display: none;
-}
-
-.map .smaller{
     display: none;
 }
 
@@ -770,102 +736,22 @@ input{
     display: none;
 }
 
+.map .tinyest{
+    display: none;
+}
+
+.map .tinyestx{
+    display: none;
+}
+
+.map .tinyestxs{
+    display: none;
+}
+
 /* Responsive contact.html*/
-
-@media screen and (max-width:2530px) {
+  
+@media screen and (max-width:1440px) {
     .map .biggest {
-        display: none;
-    }
-
-    .map .big{
-        display: flex ;
-    }
-
-   .contact-fields h2{
-       font-size: 45px;
-       position: relative;
-       left: 40px;
-   }
-
-   input{
-       font-size: 30px;
-       position: relative;
-       left: 40px;
-   }
-
-   .contact button{
-       font-size: 35px;
-       position: relative;
-       left: 40px;
-   }
-   
-   .map h2{
-       font-size: 45px;
-   }
-
-   .vertical-line{
-       height: 900px;
-       position: relative;
-       left: 10px;
-   }     
-
-   .contact h6{
-       font-size: 20px;
-       position:relative;
-       left: 50px;
-   }
-}
-
-@media screen and (max-width:1770px) {
-    .map .big {
-        display: none;
-    }
-
-    .map .medium{
-        display: flex ;
-    }
-
-    .contact-fields h2{
-        font-size: 40px;
-        position: relative;
-        top: 110px;
-        left: 70px;
-    }
- 
-    input{
-        font-size: 25px;
-        position: relative;
-        left: 70px;
-    }
- 
-    .contact button{
-        font-size: 30px;
-        position: relative;
-        left: 70px;
-    }
-
-    .map h2{
-        font-size: 40px;
-    }
-
-    .vertical-line{
-        height: 800px;
-        margin-left: 9%;
-        margin-right: 4%;
-        position: relative;
-        left: 50px;
-    }
-
-    .contact h6{
-        font-size: 15px;
-        position:relative;
-        left: 50px;
-    }
-
-}
-   
-@media screen and (max-width:1520px) {
-    .map .medium {
         display: none;
     }
 
@@ -918,59 +804,8 @@ input{
     }
 }
 
-@media screen and (max-width:1270px) {
+@media screen and (max-width:1025px) {
     .map .small {
-        display: none;
-    }
-
-    .map .smaller{
-        display: flex ;
-    }
-
-    .contact-fields h2{
-        font-size: 30px;
-        position: relative;
-        top: 90px;
-        left:80px;
-    }
- 
-    input{
-        font-size: 15px;
-        padding: 5px;
-        margin: 5px;
-        position: relative;
-        left: 80px;
-    }
- 
-    .contact button{
-        font-size: 25px;
-        padding: 2px;
-        position: relative;
-        left: 80px;
-    }
-
-    .map h2{
-        font-size: 30px;
-        padding-bottom: 10px;
-    }
-
-    .vertical-line{
-        height: 550px;
-        margin-left: 5%;
-        margin-right: 0%;
-        position: relative;
-        left: 80px;
-    }
-
-    .contact h6{
-        font-size: 10px;
-        position:relative;
-        left: 80px;
-    }
-}
-
-@media screen and (max-width:1020px) {
-    .map .smaller {
         display: none;
     }
 
@@ -1021,7 +856,7 @@ input{
     }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:768px) {
     .map .smallest {
         display: none;
     }
@@ -1073,6 +908,197 @@ input{
     }
 }
 
+@media screen and (max-width: 426px) {
+    .map .tiny {
+        display: none;
+    }
+
+    .map .tinyest{
+        display: flex ;
+    }
+
+    .contact-fields h2{
+        font-size: 15px;
+        position: relative;
+        top:90px;
+        left: 1px;
+    }
+ 
+    input{
+        font-size: 10px;
+        margin: 1px;
+        position: relative;
+        left: 1px;
+    }
+ 
+    .contact button{
+        font-size: 15px;
+        position: relative;
+        left: 1px;
+    }
+
+    .map h2{
+        font-size: 15px;
+        margin-top: 50px;
+        padding-bottom: 10px;
+        position: relative;
+        left: 80px;
+        top: 25px;
+    }
+
+    .vertical-line{
+        height: 250px;
+        position: relative;
+        left: 70px;
+        top: 40px;
+
+    }
+
+    .contact h6{
+        font-size: 6px;
+        position:relative;
+        left: 0px;
+        top: -70px;
+        margin: 0;
+        padding:0;
+    }
+
+    .map iframe{
+        position:relative;
+        left: 80px;
+        top:25px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .map .tinyest {
+        display: none;
+    }
+
+    .map .tinyestx{
+        display: flex ;
+    }
+
+    .contact-fields h2{
+        font-size: 10px;
+        position: relative;
+        top:90px;
+        left: 0px;
+    }
+ 
+    input{
+        font-size: 10px;
+        margin: 1px;
+        position: relative;
+        left: 0px;
+        padding: 2px;
+        width: 80px;
+    }
+ 
+    .contact button{
+        font-size: 10px;
+        position: relative;
+        left: 0px;
+    }
+
+    .map h2{
+        font-size: 10px;
+        margin-top: 50px;
+        padding-bottom: 10px;
+        position: relative;
+        left: 50px;
+        top: 30px;
+    }
+
+    .vertical-line{
+        height: 200px;
+        position: relative;
+        left: 60px;
+        top: 50px;
+
+    }
+
+    .contact h6{
+        font-size: 5px;
+        position:relative;
+        left: 10px;
+        top: -70px;
+        margin: 0;
+        padding:0;
+    }
+
+    .map iframe{
+        position:relative;
+        left: 50px;
+        top: 30px;
+    }
+}
+
+
+@media screen and (max-width: 321px) {
+    .map .tinyestx {
+        display: none;
+    }
+
+    .map .tinyestxs{
+        display: flex ;
+    }
+
+    .contact-fields h2{
+        font-size: 8px;
+        position: relative;
+        top:90px;
+        left: 10px;
+    }
+ 
+    input{
+        font-size: 8px;
+        margin: 1px;
+        position: relative;
+        left: 10px;
+        padding: 2px;
+        width: 80px;
+    }
+ 
+    .contact button{
+        font-size: 10px;
+        position: relative;
+        left: 10px;
+    }
+
+    .map h2{
+        font-size: 8px;
+        margin-top: 50px;
+        padding-bottom: 10px;
+        position: relative;
+        left: 70px;
+        top: 30px;
+    }
+
+    .vertical-line{
+        height: 200px;
+        position: relative;
+        left: 80px;
+        top: 50px;
+        border-left: 3px solid #878f84;
+    }
+
+    .contact h6{
+        font-size: 5px;
+        position:relative;
+        left: 10px;
+        top: -70px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .map iframe{
+        position:relative;
+        left: 70px;
+        top: 30px;
+    }
+}
+
 /*Footer*/
 
 footer{
@@ -1108,8 +1134,8 @@ footer{
 @media screen and (max-width: 425px){
     footer{
         font-size: 8px;
-        padding-top: 50px;
-        padding-bottom: 55px;
+        padding-top: 170px;
+        padding-bottom:170px;
     }
 }
 
