@@ -921,21 +921,27 @@ input{
         font-size: 15px;
         position: relative;
         top:90px;
-        left: 1px;
+        left: -35px;
     }
  
+    .contact-fields{
+        padding-left: 0;
+        margin-left:0;
+    }
+
     input{
-        font-size: 10px;
+        font-size: 8px;
         margin: 1px;
         position: relative;
-        left: 1px;
-        padding: 2px;
+        left: -35px;
+        padding: 1px;
+        width: 35px;
     }
  
     .contact button{
         font-size: 15px;
         position: relative;
-        left: 1px;
+        left: -35px;
     }
 
     .map h2{
@@ -992,8 +998,12 @@ input{
         margin: 1px;
         position: relative;
         left: 0px;
-        padding: 2px;
-        width: 80px;
+        width: 40px;
+    }
+
+    .contact-fields{
+        padding-left: 0;
+        margin-left:0;
     }
  
     .contact button{
@@ -1058,13 +1068,18 @@ input{
         position: relative;
         left: 10px;
         padding: 2px;
-        width: 80px;
+        width: 40px;
     }
  
     .contact button{
         font-size: 10px;
         position: relative;
         left: 10px;
+    }
+
+    .contact-fields{
+        padding-left: 0;
+        margin-left:0;
     }
 
     .map h2{
