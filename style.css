@@ -929,6 +929,7 @@ input{
         margin: 1px;
         position: relative;
         left: 1px;
+        padding: 2px;
     }
  
     .contact button{
