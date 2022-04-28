@@ -877,6 +877,7 @@ input{
         margin: 1px;
         position: relative;
         left: 50px;
+        width: 50px;
     }
  
     .contact button{
@@ -930,6 +931,7 @@ input{
         position: relative;
         left: 1px;
         padding: 2px;
+        width: 50px;
     }
  
     .contact button{
@@ -993,7 +995,7 @@ input{
         position: relative;
         left: 0px;
         padding: 2px;
-        width: 40px;
+        width: 50px;
     }
  
     .contact button{
